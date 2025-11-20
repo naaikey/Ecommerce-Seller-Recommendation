@@ -1,0 +1,21 @@
+# Relative paths from the project's root folder
+seller_catalog:
+  input_path: "data/seller_catalog_dirty.csv"
+  hudi_output_path: "output/seller_catalog_hudi"
+  quarantine_path: "output/quarantine/seller_catalog"
+
+company_sales:
+  input_path: "data/company_sales_dirty.csv"
+  hudi_output_path: "output/company_sales_hudi"
+  quarantine_path: "output/quarantine/company_sales"
+
+competitor_sales:
+  input_path: "data/competitor_sales_dirty.csv"
+  hudi_output_path: "output/competitor_sales_hudi"
+  quarantine_path: "output/quarantine/competitor_sales"
+
+recommendation:
+  seller_catalog_hudi: "output/seller_catalog_hudi"
+  company_sales_hudi: "output/company_sales_hudi"
+  competitor_sales_hudi: "output/competitor_sales_hudi"
+  output_csv: "output/gold/seller_recommend_data"
