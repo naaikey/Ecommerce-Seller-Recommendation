@@ -5,7 +5,6 @@
 - **Intended Users**: Data engineers, data scientists, and reviewers running the ETL pipeline locally or on a cluster.
 
 **Repository Structure**:
-- `local/` : Local-run helpers and pipeline entry points (e.g., `run_full_pipeline.bat`).
 - `configs/` : YAML configuration files used by the pipelines (e.g., `ecomm_prod.yml`).
 - `data/` : Source (raw) CSVs used by the ETL jobs.
 - `scripts/` : Shell scripts and submit wrappers for `spark-submit` jobs.
