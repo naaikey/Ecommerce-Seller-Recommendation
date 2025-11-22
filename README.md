@@ -64,7 +64,6 @@ bash scripts/consumption_recommendation_spark_submit.sh
 
 **Development & Testing**:
 - Modify ETL logic in `src/` and validate by running the relevant `spark-submit` example against a small sample in `data/`.
-- Add unit tests for transformation functions where possible (pure functions can be run without Spark).
 
 **Contact / Author**:
 - Created for the `ecommerce_seller_recommendation` assignment for course name: Data Stores and Pipelines, M.Sc. Data Science and AI @ BITS Pilani;
